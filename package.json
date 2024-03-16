@@ -1,0 +1,22 @@
+{
+  "name": "load-balancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start2": "nodemon server1.js",
+    "start3": "nodemon server2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "http-proxy": "^1.18.1",
+    "nodemon": "^3.1.0",
+    "util": "^0.12.5"
+  }
+}
