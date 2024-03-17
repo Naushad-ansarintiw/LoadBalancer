@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon loadBalancer.js",
-    "start2": "nodemon server1.js",
-    "start3": "nodemon server2.js"
+    "lb": "nodemon loadBalancer.js ",
+    "s1": "nodemon server1.js",
+    "s2": "nodemon server2.js"
   },
   "keywords": [],
   "author": "",

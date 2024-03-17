@@ -1,5 +1,5 @@
 // Use this cmd to make request
-# curl --parallel --parallel-immediate --parallel-max 3 --config urls.txt
+# curl --parallel --parallel-immediate --parallel-max 2 --config urls.txt
 
 url = "http://localhost"
 url = "http://localhost"

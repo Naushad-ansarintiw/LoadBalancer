@@ -18,7 +18,7 @@ function getNextBackendServer() {
   return backendServer;
 }
 
-app.use(async (req, res, next) => {
+app.use(async (req, res) => {
   console.log("Received request: ", req.ip);
   try {
     // Forward request to backend server's /health endpoint using async/await
